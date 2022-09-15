@@ -124,7 +124,7 @@ p {
 .row {
     display: block;
     width: fit-content;
-    margin-left: 220px;
+    padding-right: 25px;
     
 
 }
