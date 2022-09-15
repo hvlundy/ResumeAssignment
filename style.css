@@ -1,57 +1,113 @@
+/* Global styles
+-------------------------------------*/
+
 * {
     box-sizing: border-box;
-}
+    }
   
 img {
-    float: right;
+    float: left;
     max-width: 100%;
     padding-left: 50x;
     margin: 25px 25px 50px 25px;
-}
+    }
 
 header {
-background-color: #2A6C85;
-text-align: center;
-padding: 100px 100px 200px 100px;
+    background-color: #6d7973;
+    text-align: center;
+    padding: 100px 100px 200px 100px;
+    margin-bottom: 100px;
 
-}
+    }
+
+
+/* Profile styles
+-------------------------------------*/
+.container {
+    display: block;
+    width: 1500px;
+    border: none;
+    padding: 50px;
+    margin: 20px;
+
+    }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bolder;
-    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
     color: white;
-    font-size: 35px;
+    font-size: 45px;
+    text-align: center;
+    text-shadow: 2px 2px rgb(63, 59, 59);
 }
 
 h2 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: lighter;
     text-align: center;
     color: white;
     font-size: 30px;
-}
+    }
 
 h3 {
     color: #2A6C85;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 25px;
-}
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    }
 
-.projects, p {
+
+
+/* Art projects styles
+-------------------------------------*/
+
+.projects p {
     color: #2A6C85;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.projects h2 {
+    color: #2A6C85;
+    text-align: center;
+    font-family: Tahoma, Verdana, sans-serif;
+    }
+
+.projects a {
+    color: #2A6C85;
+}
+
+figcaption {
+    color: #2A6C85;
+    text-align: center;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-bottom: 30px;
 }
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: white;
     padding-right: 10px;
+    }
+
+.display ul {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    text-align: center;
+    color: #2A6C85;
+    list-style-type: none;
+    margin-bottom: 50px;
+
 }
 
-/* images */
+.content-wrap {
+    width: 1400px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+/* images 
+----------------------------------------*/
 
 .column {
     float: left;
@@ -59,13 +115,55 @@ p {
     padding: 20px;
   }
   
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-  .display {
+
+.display {
     color: #2A6C85;
   }
+
+.row {
+    display: block;
+    width: fit-content;
+    margin-left: 220px;
+    
+
+}
+
+
+
+  /* Education styles
+-------------------------------------*/
+.edu {
+    margin-bottom: 100px;
+}
+
+/* Footer styles
+-------------------------------------*/
+
+.footer {
+    background-color: #6d7973;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer h3 {
+    color: #e5dace;
+    font-size: 25px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer li a {
+ font-size: 20px;
+ color: #e5dace;
+}
+
+a:hover {
+    background-color: #16558f;
+}
+
+a:focus {
+    background-color: #2a7f85;
+}
